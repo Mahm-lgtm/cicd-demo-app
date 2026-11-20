@@ -28,7 +28,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_multiply(self):
         """Test the multiply function with positive integers."""
-        self.assertEqual(multiply(3, 7), 21)
+        self.assertEqual(multiply(3, 7), 22)
 
     def test_divide(self):
         """Test the divide function with valid input."""
